@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Available for projects",
+    "title": "Hi, I'm Angel Cortes",
+    "subtitle": "Full Stack Developer",
+    "description": "Specialized in creating modern and scalable web experiences with the best technologies on the market.",
+    "viewProjects": "View Projects",
+    "contactButton": "Contact"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "description": "A selection of projects that demonstrate my experience and skills",
+    "code": "Code",
+    "demo": "Demo"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Technologies and tools I master to create efficient solutions",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "toolsDevOps": "Tools & DevOps",
+    "expert": "Expert",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate"
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "description": "Have a project in mind? I'd love to hear about it",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "sendMessage": "Send Message",
+    "findMe": "Find me on",
+    "availability": "Availability",
+    "availabilityText": "Currently available for freelance projects and collaborations.",
+    "availableNow": "Available now",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Tell me about your project..."
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "using": "using Next.js",
+    "allRights": "All rights reserved."
+  }
+}

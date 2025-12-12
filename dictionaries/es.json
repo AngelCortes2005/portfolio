@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Disponible para proyectos",
+    "title": "Hola, Soy Angel Cortes",
+    "subtitle": "Desarrollador Full Stack",
+    "description": "Especializado en crear experiencias web modernas y escalables con las mejores tecnologías del mercado.",
+    "viewProjects": "Ver Proyectos",
+    "contactButton": "Contactar"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "description": "Una selección de proyectos que demuestran mi experiencia y habilidades",
+    "code": "Código",
+    "demo": "Demo"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Tecnologías y herramientas que domino para crear soluciones eficientes",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "toolsDevOps": "Herramientas & DevOps",
+    "expert": "Experto",
+    "advanced": "Avanzado",
+    "intermediate": "Intermedio"
+  },
+  "contact": {
+    "title": "Hablemos",
+    "description": "¿Tienes un proyecto en mente? Me encantaría escucharlo",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "sendMessage": "Enviar Mensaje",
+    "findMe": "Encuéntrame en",
+    "availability": "Disponibilidad",
+    "availabilityText": "Actualmente disponible para proyectos freelance y colaboraciones.",
+    "availableNow": "Disponible ahora",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "tu@email.com",
+    "messagePlaceholder": "Cuéntame sobre tu proyecto..."
+  },
+  "footer": {
+    "madeWith": "Hecho con",
+    "using": "usando Next.js",
+    "allRights": "Todos los derechos reservados."
+  }
+}
