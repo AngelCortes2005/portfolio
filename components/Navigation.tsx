@@ -32,7 +32,7 @@ export default function Navigation({ dict, lang }: NavigationProps) {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 max-sm:bg-black/80 max-sm:backdrop-blur-xl max-sm:border-b max-sm:border-white/5 ${
         scrolled
           ? "bg-black/80 backdrop-blur-xl border-b border-white/5"
           : "bg-transparent"
@@ -46,7 +46,7 @@ export default function Navigation({ dict, lang }: NavigationProps) {
             whileHover={{ scale: 1.05 }}
             className="text-xl font-bold text-white"
           >
-            Angel<span className="text-violet-500">.</span>Dev
+            Angel<span className="text-blue-500">.</span>Dev
           </motion.a>
 
           {/* Desktop Menu */}
@@ -61,7 +61,7 @@ export default function Navigation({ dict, lang }: NavigationProps) {
                 className="text-sm text-gray-400 hover:text-white transition-colors relative group"
               >
                 {link.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-px bg-violet-500 transition-all group-hover:w-full" />
+                <span className="absolute -bottom-1 left-0 w-0 h-px bg-blue-500 transition-all group-hover:w-full" />
               </motion.a>
             ))}
             <LanguageToggle />
@@ -86,7 +86,7 @@ export default function Navigation({ dict, lang }: NavigationProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden pb-6 space-y-4"
+            className="md:hidden pb-6 space-y-4 "
           >
             {links.map((link) => (
               <a

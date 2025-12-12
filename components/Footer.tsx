@@ -51,7 +51,7 @@ export default function Footer({ dict }: FooterProps) {
           {/* Left side */}
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold text-white mb-2">
-              Angel<span className="text-violet-500">.</span>Cortes
+              Angel<span className="text-blue-500">.</span>Cortes
             </h3>
             <p className="text-sm text-gray-500 flex items-center gap-2">
               {dict.footer.madeWith} <Heart className="w-4 h-4 text-red-500" /> {dict.footer.using}
@@ -76,7 +76,7 @@ export default function Footer({ dict }: FooterProps) {
             onClick={scrollToTop}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            className="w-12 h-12 bg-violet-600 hover:bg-violet-700 rounded-full flex items-center justify-center text-white transition-colors"
+            className="w-12 h-12 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center text-white transition-colors"
           >
             <ArrowUp className="w-5 h-5" />
           </motion.button>
