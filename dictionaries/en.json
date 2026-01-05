@@ -50,7 +50,7 @@
         "title": "Inter Lab",
         "description": "The goal is to provide a platform where someone can practice real interviews but with an AI agent that responds, simulates the interviewer, generates questions, and allows an interview experience as close to a real one as possible, with voice, feedback, etc.",
         "tags": ["Next.js", "TypeScript", "Gemini AI", "Firebase", "Vapi", "Tailwind", "Vercel"],
-        "image": "/inter-Lab.png",
+        "image": "/inter-lab.png",
         "github": "https://github.com/AngelCortes2005/ai-interview-platform",
         "demo": "https://ai-interview-platform-rho-murex.vercel.app"
       }
