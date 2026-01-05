@@ -36,7 +36,7 @@ Feel free to reach out if you'd like to collaborate on a project or just want to
 - 🌐 Portfolio: [Visit my work](https://portfolio-seven-lake-2udkha6hyp.vercel.app/en)
 - 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/angelcortesm/)
 - 📧 Email: cortts.dev@gmail.com
-- 🐙 GitHub: [@your-github](https://github.com/AngelCortes2005)
+- 🐙 GitHub: [My github](https://github.com/AngelCortes2005)
 
 ---
 
