@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi, I'm Angel Cortes 👋
 
-## Getting Started
+## Software Developer
 
-First, run the development server:
+Welcome to my portfolio! I'm a passionate software developer who loves sharing new experiences and exploring emerging technologies—both in theory and practice. I believe the best way to grow is by constantly challenging myself with new tools and approaches.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🚀 What I Do
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I build modern web experiences that combine creativity with functionality. Whether it's a complex platform or a simple landing page, I focus on creating solutions that make a difference.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 💼 I'm Available For
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🌟 New projects and collaborations
+- 💻 Remote work opportunities
+- 🏢 On-site positions
+- 🎯 Freelance projects
 
-## Learn More
+### 🎯 What Drives Me
 
-To learn more about Next.js, take a look at the following resources:
+I'm passionate about:
+- Experimenting with new technologies
+- Turning ideas into reality
+- Learning through building
+- Creating impactful digital experiences
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎨 Beyond Code
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+When I'm not coding, you'll find me:
+- 💪 At the gym staying active
+- 🎵 Enjoying music
 
-## Deploy on Vercel
+### 📫 Let's Connect
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to reach out if you'd like to collaborate on a project or just want to chat about tech!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🌐 Portfolio: [Visit my work](https://portfolio-seven-lake-2udkha6hyp.vercel.app/en)
+- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/angelcortesm/)
+- 📧 Email: cortts.dev@gmail.com
+- 🐙 GitHub: [@your-github](https://github.com/AngelCortes2005)
+
+---
+
+*Building the web, one project at a time.*
