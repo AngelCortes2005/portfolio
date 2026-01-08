@@ -23,7 +23,7 @@
         "id": 1,
         "title": "Plataforma de Gestión de Contenido Web",
         "description": "Sistema web desarrollado para la gestión y publicación de contenido multimedia del Liceo de Frailes",
-        "tags": ["Next.js", "TypeScript", "Firebase", "Vercel", "Tailwind"],
+        "tags": ["Next.js", "TypeScript", "Firebase", "Tailwind", "Framer Motion", "shadcn/ui", "Vercel"],
         "image": "/liceo-frailes.png",
         "demo": "https://liceodefrailes.com/"
       },
@@ -49,10 +49,27 @@
         "id": 4,
         "title": "Inter Lab",
         "description": "El objetivo es proporcionar una plataforma donde alguien pueda practicar entrevistas reales pero con un agente de IA que responde, simula al entrevistador, genera preguntas y permite una experiencia de entrevista lo más cercana posible a una real, con voz, retroalimentación, etc.",
-        "tags": ["Next.js", "TypeScript", "Gemini AI", "Firebase", "Vapi", "Tailwind", "Vercel"],
+        "tags": ["Next.js", "TypeScript", "Gemini AI", "Firebase", "Vapi AI", "Tailwind", "Vercel"],
         "image": "/inter-lab.png",
         "github": "https://github.com/AngelCortes2005/ai-interview-platform",
         "demo": "https://ai-interview-platform-rho-murex.vercel.app"
+      },
+            {
+        "id": 5,
+        "title": "PlanX",
+        "description": "PlanX es una aplicación móvil multiplataforma construida con .NET MAUI para organizar y gestionar eventos sociales en Android.",
+        "tags": [
+          ".NET MAUI",
+          "C#",
+          "LINQ",
+          "REST API",
+          "SQL Server",
+          "Azure Hosting",
+          "MVVM Pattern"
+        ],
+        "image": "/planx.png",
+        "github": "https://github.com/AngelCortes2005/PlanX-Mobile-App",
+        "demo": "https://planx-overview.vercel.app/"
       }
     ]
   },

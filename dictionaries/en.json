@@ -23,7 +23,7 @@
         "id": 1,
         "title": "Web Content Management Platform",
         "description": "Web system developed for the management and publication of multimedia content for the Liceo de Frailes",
-        "tags": ["Next.js", "TypeScript", "Firebase", "Vercel", "Tailwind"],
+        "tags": ["Next.js", "TypeScript", "Firebase", "Tailwind", "Framer Motion", "shadcn/ui", "Vercel"],
         "image": "/liceo-frailes.png",
         "demo": "https://liceodefrailes.com/"
       },
@@ -31,7 +31,15 @@
         "id": 2,
         "title": "Sneaker Lab",
         "description": "Sneaker Lab is an interactive web platform designed for selling sneakers",
-        "tags": ["Next.js", "TypeScript", "Mock Data", "Tailwind", "Framer Motion", "shadcn/ui", "Vercel"],
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Mock Data",
+          "Tailwind",
+          "Framer Motion",
+          "shadcn/ui",
+          "Vercel"
+        ],
         "image": "/sneaker-lab.png",
         "github": "https://github.com/AngelCortes2005/sneaker-lab",
         "demo": "https://sneaker-lab-ten.vercel.app/"
@@ -40,7 +48,17 @@
         "id": 3,
         "title": "Code Sensor (In Process)",
         "description": "CodeSense is a web application that connects to your GitHub account, analyzes your repositories, and generates intelligent feedback using AI.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "shadcn/ui", "Framer Motion", "OpenAI", "GitHub API", "Tailwind", "Vercel"],
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "shadcn/ui",
+          "Framer Motion",
+          "OpenAI",
+          "GitHub API",
+          "Tailwind",
+          "Vercel"
+        ],
         "image": "/code-sensor.png",
         "github": "https://github.com/AngelCortes2005/code-sensor",
         "demo": "https://code-sensor.vercel.app/"
@@ -49,10 +67,35 @@
         "id": 4,
         "title": "Inter Lab",
         "description": "The goal is to provide a platform where someone can practice real interviews but with an AI agent that responds, simulates the interviewer, generates questions, and allows an interview experience as close to a real one as possible, with voice, feedback, etc.",
-        "tags": ["Next.js", "TypeScript", "Gemini AI", "Firebase", "Vapi", "Tailwind", "Vercel"],
+        "tags": [
+          "Next.js",
+          "TypeScript",
+          "Gemini AI",
+          "Firebase",
+          "Vapi AI",
+          "Tailwind",
+          "Vercel"
+        ],
         "image": "/inter-lab.png",
         "github": "https://github.com/AngelCortes2005/ai-interview-platform",
         "demo": "https://ai-interview-platform-rho-murex.vercel.app"
+      },
+      {
+        "id": 5,
+        "title": "PlanX",
+        "description": "PlanX a cross-platform mobile application built with .NET MAUI for organizing and managing social events on Android.",
+        "tags": [
+          ".NET MAUI",
+          "C#",
+          "LINQ",
+          "REST API",
+          "SQL Server",
+          "Azure Hosting",
+          "MVVM Pattern"
+        ],
+        "image": "/planx.png",
+        "github": "https://github.com/AngelCortes2005/PlanX-Mobile-App",
+        "demo": "https://planx-overview.vercel.app/"
       }
     ]
   },
