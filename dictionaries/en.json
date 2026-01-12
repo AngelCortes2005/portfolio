@@ -46,7 +46,7 @@
       },
       {
         "id": 3,
-        "title": "Code Sensor (In Process)",
+        "title": "Code Sensor",
         "description": "CodeSense is a web application that connects to your GitHub account, analyzes your repositories, and generates intelligent feedback using AI.",
         "tags": [
           "Next.js",
