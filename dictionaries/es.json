@@ -1,106 +1,74 @@
 {
   "nav": {
-    "home": "Inicio",
-    "projects": "Proyectos",
-    "skills": "Habilidades",
+    "work": "Proyectos",
+    "about": "Sobre mí",
     "contact": "Contacto"
   },
   "hero": {
-    "badge": "Disponible para proyectos",
-    "title": "Hola, Soy Angel Cortes",
-    "subtitle": "Desarrollador Full Stack",
-    "description": "Especializado en crear experiencias web modernas y escalables con las mejores tecnologías del mercado.",
-    "viewProjects": "Ver Proyectos",
-    "contactButton": "Contactar"
+    "nameFirst": "Angel",
+    "nameLast": "Cortes",
+    "role": "Ingeniero en Sistemas | Desarrollador de Software",
+    "description": "La perfección se logra no cuando no hay nada más que añadir, sino cuando no hay nada más que quitar.",
+    "quoteAuthor": "Antoine de Saint-Exupéry",
+    "ctaWork": "Ver Proyectos",
+    "ctaContact": "Contactar",
+    "processLabel": "Cómo trabajo",
+    "process": ["Entender", "Diseñar", "Construir", "Desplegar", "Mejorar"]
   },
-  "projects": {
-    "title": "Proyectos Destacados",
-    "description": "Una selección de proyectos que demuestran mi experiencia y habilidades",
-    "code": "Código",
-    "demo": "Demo",
+  "work": {
+    "label": "Trabajo Seleccionado",
+    "title": "Proyectos que importan",
     "items": [
       {
         "id": 1,
-        "title": "Plataforma de Gestión de Contenido Web",
-        "description": "Sistema web desarrollado para la gestión y publicación de contenido multimedia del Liceo de Frailes",
-        "tags": ["Next.js", "TypeScript", "Firebase", "Tailwind", "Framer Motion", "shadcn/ui", "Vercel"],
-        "image": "/liceo-frailes.png",
-        "demo": "https://liceodefrailes.com/"
+        "title": "Liceo de Frailes CMS",
+        "description": "Una plataforma de gestión de contenido construida para una escuela local para publicar y organizar contenido multimedia. Diseñada para personal no técnico con enfoque en usabilidad.",
+        "year": "2024",
+        "link": "https://liceodefrailes.com/",
+        "image": "/liceo-frailes.png"
       },
       {
         "id": 2,
-        "title": "Sneaker Lab",
-        "description": "Sneaker Lab es una plataforma web interactiva diseñada para la venta de zapatillas",
-        "tags": ["Next.js", "TypeScript", "Mock Data", "Tailwind", "Framer Motion", "shadcn/ui", "Vercel"],
-        "image": "/sneaker-lab.png",
-        "github": "https://github.com/AngelCortes2005/sneaker-lab",
-        "demo": "https://sneaker-lab-ten.vercel.app/"
+        "title": "Code Sensor",
+        "description": "Se conecta a GitHub, analiza repositorios y proporciona retroalimentación inteligente usando IA. Construido para ayudar a desarrolladores a entender y mejorar su código.",
+        "year": "2024",
+        "link": "https://code-sensor.vercel.app/",
+        "image": "/code-sensor.png"
       },
       {
         "id": 3,
-        "title": "Code Sensor",
-        "description": "CodeSense es una aplicación web que se conecta a tu cuenta de GitHub, analiza tus repositorios y genera retroalimentación inteligente usando IA.",
-        "tags": ["Next.js", "TypeScript", "Supabase", "shadcn/ui", "Framer Motion", "OpenAI", "GitHub API", "Tailwind", "Vercel"],
-        "image": "/code-sensor.png",
-        "github": "https://github.com/AngelCortes2005/code-sensor",
-        "demo": "https://code-sensor.vercel.app/"
-      },
-      {
-        "id": 4,
         "title": "Inter Lab",
-        "description": "El objetivo es proporcionar una plataforma donde alguien pueda practicar entrevistas reales pero con un agente de IA que responde, simula al entrevistador, genera preguntas y permite una experiencia de entrevista lo más cercana posible a una real, con voz, retroalimentación, etc.",
-        "tags": ["Next.js", "TypeScript", "Gemini AI", "Firebase", "Vapi AI", "Tailwind", "Vercel"],
-        "image": "/inter-lab.png",
-        "github": "https://github.com/AngelCortes2005/ai-interview-platform",
-        "demo": "https://ai-interview-platform-rho-murex.vercel.app"
-      },
-            {
-        "id": 5,
-        "title": "PlanX",
-        "description": "PlanX es una aplicación móvil multiplataforma construida con .NET MAUI para organizar y gestionar eventos sociales en Android.",
-        "tags": [
-          ".NET MAUI",
-          "C#",
-          "LINQ",
-          "REST API",
-          "SQL Server",
-          "Azure Hosting",
-          "MVVM Pattern"
-        ],
-        "image": "/planx.png",
-        "github": "https://github.com/AngelCortes2005/PlanX-Mobile-App",
-        "demo": "https://planx-overview.vercel.app/"
+        "description": "Una plataforma de entrevistas impulsada por IA con interacción por voz. Simula entrevistas técnicas reales y proporciona retroalimentación detallada para ayudar a los candidatos a prepararse.",
+        "year": "2024",
+        "link": "https://ai-interview-platform-rho-murex.vercel.app",
+        "image": "/inter-lab.png"
       }
     ]
   },
-  "skills": {
-    "title": "Habilidades",
-    "description": "Tecnologías y herramientas que domino para crear soluciones eficientes",
-    "frontend": "Frontend",
-    "backend": "Backend",
-    "toolsDevOps": "Herramientas & DevOps",
-    "expert": "Experto",
-    "advanced": "Avanzado",
-    "intermediate": "Intermedio"
+  "about": {
+    "label": "Sobre mí",
+    "title": "Enfocado en lo que importa",
+    "paragraphs": [
+      "No creo en el código por el código. Cada proyecto que tomo comienza entendiendo el problema, no eligiendo el framework.",
+      "Trabajo con React, TypeScript y Next.js en proyectos que necesitan escalar. Pero más importante, me importan las personas que usan lo que construyo — ya sea un editor de contenido en una escuela o un desarrollador intentando mejorar su código.",
+      "Cuando no estoy construyendo, estoy aprendiendo. Las mejores soluciones vienen de entender los fundamentos, no seguir tendencias."
+    ]
   },
   "contact": {
-    "title": "Hablemos",
-    "description": "¿Tienes un proyecto en mente? Me encantaría escucharlo",
+    "label": "Contacto",
+    "title": "Trabajemos juntos",
+    "description": "¿Tienes un proyecto en mente o simplemente quieres hablar de tecnología? Siempre estoy abierto a conversaciones interesantes.",
     "name": "Nombre",
     "email": "Email",
     "message": "Mensaje",
-    "sendMessage": "Enviar Mensaje",
-    "findMe": "Encuéntrame en",
-    "availability": "Disponibilidad",
-    "availabilityText": "Actualmente disponible para proyectos freelance y colaboraciones.",
-    "availableNow": "Disponible ahora",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "Mensaje enviado con éxito. Te responderé pronto.",
     "namePlaceholder": "Tu nombre",
-    "emailPlaceholder": "tu@email.com",
-    "messagePlaceholder": "Cuéntame sobre tu proyecto..."
+    "emailPlaceholder": "tu@ejemplo.com",
+    "messagePlaceholder": "Cuéntame sobre tu proyecto o idea..."
   },
   "footer": {
-    "madeWith": "Hecho con",
-    "using": "usando Next.js",
-    "allRights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados."
   }
 }

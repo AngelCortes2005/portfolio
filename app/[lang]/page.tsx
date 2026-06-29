@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Navigation from "@/components/Navigation";
-import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
+import SelectedWork from "@/components/SelectedWork";
+import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { getDictionary, Locale } from "@/lib/getDictionary";
@@ -17,11 +17,11 @@ export default async function Home({
   const dict = await getDictionary(lang);
 
   return (
-    <main className="bg-black">
+    <main className="bg-background min-h-screen">
       <Navigation dict={dict} lang={lang} />
       <Hero dict={dict} />
-      <Projects dict={dict} />
-      <Skills dict={dict} />
+      <SelectedWork dict={dict} />
+      <About dict={dict} />
       <Contact dict={dict} />
       <Footer dict={dict} />
     </main>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import "../globals.css";
+import ThemeProvider from "@/components/ThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,13 +13,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const instrumentSerif = Instrument_Serif({
+  variable: "--font-instrument-serif",
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["normal", "italic"],
+});
+
 export const metadata: Metadata = {
-  title: "Angel Cortes | Full Stack Developer",
-  description: "Portfolio website of Angel Cortes, a software developer specializing in web development and modern technologies.",
+  title: "Angel Cortes | Software Developer",
+  description:
+    "Portfolio of Angel Cortes — a software developer building products that people actually use.",
 };
 
 export async function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'es' }];
+  return [{ lang: "en" }, { lang: "es" }];
 }
 
 type Params = Promise<{ lang: string }>;
@@ -33,11 +42,11 @@ export default async function RootLayout({
   const { lang } = await params;
 
   return (
-    <html lang={lang} className="dark scroll-smooth">
+    <html lang={lang} className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
